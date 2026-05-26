@@ -2,9 +2,15 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Sparkles, Truck, ShieldCheck, Gem, Plus, Minus, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
-import heroImg from "@/assets/hero-groom.jpg";
-import collectionImg from "@/assets/collection-wedding.jpg";
-import craftImg from "@/assets/craft.jpg";
+import vImg19 from "@/assets/vrudhi-img/19.jpeg";
+import vImg20 from "@/assets/vrudhi-img/20.jpeg";
+import vImg21 from "@/assets/vrudhi-img/21.jpeg";
+import vImg22 from "@/assets/vrudhi-img/22.jpeg";
+import vImg23 from "@/assets/vrudhi-img/23.jpeg";
+import vImg24 from "@/assets/vrudhi-img/24.jpeg";
+import vImg25 from "@/assets/vrudhi-img/25.jpeg";
+import vImg26 from "@/assets/vrudhi-img/26.jpeg";
+import vImg27 from "@/assets/vrudhi-img/27.jpeg";
 import { categories, products } from "@/lib/products";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -78,7 +84,7 @@ function HomePage() {
             className="relative"
           >
             <div className="aspect-[4/5] overflow-hidden">
-              <img src={collectionImg} alt="The Wedding Collection" loading="lazy" className="h-full w-full object-cover" />
+              <img src={vImg26} alt="The Wedding Collection" loading="lazy" className="h-full w-full object-cover" />
             </div>
             <div className="absolute -bottom-8 -right-4 lg:-right-10 bg-cream border border-border px-7 py-6 shadow-xl max-w-[260px]">
               <div className="text-[9px] tracking-[0.4em] uppercase text-gold mb-2">Limited</div>
@@ -110,7 +116,7 @@ function HomePage() {
       {/* CRAFTSMANSHIP */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={craftImg} alt="" loading="lazy" className="h-full w-full object-cover" />
+          <img src={vImg27} alt="" loading="lazy" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-foreground/55" />
         </div>
         <div className="relative container-luxe py-28 md:py-40 text-cream max-w-3xl">
@@ -186,7 +192,7 @@ function HomePage() {
         <div className="container-luxe">
           <SectionHeader eyebrow="@vrudhi.impex" title="Carried into your moments" />
           <div className="mt-14 grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-3">
-            {[heroImg, collectionImg, craftImg, categories[0].image, categories[2].image, categories[1].image].map((src, i) => (
+            {[vImg19, vImg20, vImg21, vImg22, vImg23, vImg24].map((src, i) => (
               <a key={i} href="#" className="group block aspect-square overflow-hidden bg-cream relative">
                 <img src={src} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-110" />
                 <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/40 transition-colors grid place-items-center">
@@ -206,9 +212,9 @@ function HomePage() {
         </div>
         <div className="grid md:grid-cols-3 gap-8 md:gap-10">
           {[
-            { tag: "Craft", img: craftImg, title: "The forty-hour pleat: anatomy of a safa", read: "6 min read" },
-            { tag: "Heritage", img: collectionImg, title: "Why kundan still matters in 2026", read: "4 min read" },
-            { tag: "Wedding", img: heroImg, title: "Dressing the groom: a complete guide", read: "9 min read" },
+            { tag: "Craft", img: vImg27, title: "The forty-hour pleat: anatomy of a safa", read: "6 min read" },
+            { tag: "Heritage", img: vImg26, title: "Why kundan still matters in 2026", read: "4 min read" },
+            { tag: "Wedding", img: vImg25, title: "Dressing the groom: a complete guide", read: "9 min read" },
           ].map((j, i) => (
             <motion.article
               key={i}
@@ -301,7 +307,7 @@ function HomePage() {
 
 const slides = [
   {
-    img: heroImg,
+    img: vImg25,
     eyebrow: "Wedding Couture · Edit 2026",
     title: ["Adorned for the", "most sacred", "of days."],
     titleAccent: 1,
@@ -310,7 +316,7 @@ const slides = [
     cta2: { label: "Our Heritage", to: "/about" },
   },
   {
-    img: collectionImg,
+    img: vImg26,
     eyebrow: "Wedding & Ethnic · 2026",
     title: ["Dulha Mala", "Collection", ""],
     titleAccent: 1,
@@ -319,7 +325,7 @@ const slides = [
     cta2: { label: "About Us", to: "/about" },
   },
   {
-    img: craftImg,
+    img: vImg27,
     eyebrow: "Crafted in Mumbai · Since 2009",
     title: ["Metal Hardware", "& Brooches", ""],
     titleAccent: 1,

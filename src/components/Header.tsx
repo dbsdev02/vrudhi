@@ -87,7 +87,7 @@ export function Header() {
           </Link>
 
           <div className="flex items-center gap-5 flex-1 justify-end">
-            {nav.slice(3).map((n, i) => (
+            {nav.slice(2).map((n, i) => (
               <Link
                 key={i}
                 to={n.to}
