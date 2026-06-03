@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/PISTA Vrudhi Fashion-logo.png";
+import logo from "@/assets/newlogo1.png";
 import { Search, ShoppingBag, Menu, X, User, ChevronDown, Heart } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useStore } from "@/lib/store";

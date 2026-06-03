@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "jetro": {
+      "command": "C:\\Users\\Divyanshu\\.jetro\\runtime\\node-win32-x64.exe",
+      "args": [
+        "C:\\Users\\Divyanshu\\.jetro\\mcp-server\\index.js"
+      ],
+      "env": {
+        "JET_WORKSPACE": "d:\\DBS\\royal-groom-suite-main",
+        "JET_API_URL": "https://api.jetro.ai",
+        "PATH": "C:\\Users\\Divyanshu\\.jetro\\runtime;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;%NVM_HOME%;%NVM_SYMLINK%;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\Divyanshu\\.local\\bin;C:\\Users\\Divyanshu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Divyanshu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Divyanshu\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Users\\Divyanshu\\AppData\\Roaming\\npm;C:\\Users\\Divyanshu\\AppData\\Local\\Python\\bin;C:\\Users\\Divyanshu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      }
+    }
+  }
+}
