@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Youtube, Facebook } from "lucide-react";
-import logo from "@/assets/PISTA Vrudhi Fashion-logo.png";
+import logo from "@/assets/newlogo1.png";
 
 export function Footer() {
   return (
